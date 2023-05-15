@@ -41,7 +41,7 @@ public class SplineObject : MonoBehaviour
 
         for (int i = 0; i < splineSegmentObjects.Count; i++)
         {
-            spline.Segments.Add(splineSegmentObjects[i].GenerateSplineSegment());
+            //spline.Segments.Add(splineSegmentObjects[i].GenerateSplineSegment());
         }
 
         return spline;
